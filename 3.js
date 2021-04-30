@@ -13,7 +13,7 @@ function modelLoaded(){
     objectDetector.detect(img,gotResults);
 }
 function preload() {
-    img=loadImage('download.jpg');
+    img=loadImage('download(1).jpg');
 }
 function draw() {
     image(img,0,0,640,420);
